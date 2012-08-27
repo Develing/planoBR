@@ -30,6 +30,11 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>planoBR.png</string>
+		<string>planoBR@2x.png</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

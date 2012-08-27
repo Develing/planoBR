@@ -14,7 +14,9 @@
 		842BFA6315E6AA3A0093A008 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842BFA6215E6AA3A0093A008 /* ThirdViewController.m */; };
 		842BFA6515E6AA9E0093A008 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842BFA6415E6AA9E0093A008 /* CoreLocation.framework */; };
 		842BFA6715E6B36F0093A008 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 842BFA6615E6B36F0093A008 /* globe.png */; };
-		842BFA6915E6B3790093A008 /* globe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842BFA6815E6B3790093A008 /* globe@2x.png */; };
+		84618D6315EBFD4B00A41A56 /* globe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84618D6215EBFD4B00A41A56 /* globe@2x.png */; };
+		84618D6515EBFEBB00A41A56 /* planoBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 84618D6415EBFEBB00A41A56 /* planoBR.png */; };
+		84618D6715EBFF1700A41A56 /* planoBR@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84618D6615EBFF1700A41A56 /* planoBR@2x.png */; };
 		84E5C75E15EBE2820020510C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E5C75D15EBE2820020510C /* MapKit.framework */; };
 		84E5C76515EBE64B0020510C /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E5C76415EBE64B0020510C /* CustomAnnotation.m */; };
 		84F9D1EE15E69405004ADCE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F9D1ED15E69405004ADCE3 /* UIKit.framework */; };
@@ -37,7 +39,9 @@
 		842BFA6215E6AA3A0093A008 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		842BFA6415E6AA9E0093A008 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		842BFA6615E6B36F0093A008 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = globe.png; path = "../../../Dropbox/Projects/_Icons/app-bits_free_tabbar_icons/standard/globe.png"; sourceTree = "<group>"; };
-		842BFA6815E6B3790093A008 /* globe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "globe@2x.png"; path = "../../../Dropbox/Projects/_Icons/app-bits_free_tabbar_icons/retina/globe@2x.png"; sourceTree = "<group>"; };
+		84618D6215EBFD4B00A41A56 /* globe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe@2x.png"; sourceTree = "<group>"; };
+		84618D6415EBFEBB00A41A56 /* planoBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planoBR.png; sourceTree = "<group>"; };
+		84618D6615EBFF1700A41A56 /* planoBR@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planoBR@2x.png"; sourceTree = "<group>"; };
 		84E5C75D15EBE2820020510C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		84E5C76315EBE64B0020510C /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
 		84E5C76415EBE64B0020510C /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
@@ -125,9 +129,11 @@
 		84F9D1F415E69405004ADCE3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				842BFA6815E6B3790093A008 /* globe@2x.png */,
+				84618D6415EBFEBB00A41A56 /* planoBR.png */,
+				84618D6215EBFD4B00A41A56 /* globe@2x.png */,
 				842BFA6615E6B36F0093A008 /* globe.png */,
 				842BFA5615E6A6600093A008 /* cog_01.png */,
+				84618D6615EBFF1700A41A56 /* planoBR@2x.png */,
 				842BFA5915E6A6680093A008 /* cog_01@2x.png */,
 				842BFA5D15E6A6C60093A008 /* graph_bar_trend.png */,
 				842BFA5B15E6A6B60093A008 /* graph_bar_trend@2x.png */,
@@ -197,7 +203,9 @@
 				842BFA5C15E6A6B60093A008 /* graph_bar_trend@2x.png in Resources */,
 				842BFA5E15E6A6C60093A008 /* graph_bar_trend.png in Resources */,
 				842BFA6715E6B36F0093A008 /* globe.png in Resources */,
-				842BFA6915E6B3790093A008 /* globe@2x.png in Resources */,
+				84618D6315EBFD4B00A41A56 /* globe@2x.png in Resources */,
+				84618D6515EBFEBB00A41A56 /* planoBR.png in Resources */,
+				84618D6715EBFF1700A41A56 /* planoBR@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
